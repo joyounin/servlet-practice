@@ -45,6 +45,6 @@
 	<a href="/helloweb/hello">hello로 가기</a>
 	
 	<br>
-	<a href="/helloweb/from.jsp">form으로 가기</a>
+	<a href="/helloweb/form.jsp">form으로 가기</a>
 </body>
 </html>
