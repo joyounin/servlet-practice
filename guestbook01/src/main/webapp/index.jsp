@@ -28,7 +28,8 @@
 	</form>
 	
 	
-	<% for(GuestbookVo vo : list){ 
+	<% 
+		for(GuestbookVo vo : list){ 
 	%>
 		<br>
 		<table width=510 border=1>
