@@ -40,7 +40,7 @@
 				<td><a href="/guestbook01/deleteform.jsp?no=<%=vo.getNo()%>">삭제</a></td>
 			</tr>
 			<tr>
-				<td colspan=4><%=vo.getMessage() %></td>
+				<td colspan=4><%=vo.getMessage().replaceAll("\n", "<br>")  %></td>
 			</tr>
 		</table>
 	<%
