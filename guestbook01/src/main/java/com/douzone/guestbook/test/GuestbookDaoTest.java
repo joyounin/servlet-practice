@@ -18,8 +18,8 @@ public class GuestbookDaoTest {
 		testFindAll();
 	}
 
-	private static void testDeleteByPassword(String password) {
-		new GuestbookDao().deleteByPassword(password);
+	private static void testDeleteByPassword(String password, String no) {
+		new GuestbookDao().deleteByPassword(password, no);
 	}
 
 	private static void testFindAll() {
