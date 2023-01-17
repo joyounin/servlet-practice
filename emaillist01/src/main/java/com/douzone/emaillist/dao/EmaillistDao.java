@@ -66,7 +66,7 @@ public class EmaillistDao {
 		try {
 			conn = getConnection();
 			
-			String sql = "insert into emaillist values(null, ?, ?, ?)";
+			String sql = "insert into emaillist values(no, ?, ?, ?)";
 			pstmt = conn.prepareStatement(sql);
 			
 			pstmt.setString(1, vo.getFirstName());
