@@ -93,7 +93,7 @@ public class GuestbookDao {
 		}
 	}
 
-	public void deleteByPassword(String no, String password) {
+	public void deleteByPassword(Long no, String password) {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		
@@ -103,7 +103,7 @@ public class GuestbookDao {
 			String sql = "delete from guestbook where no=? and password = ?";
 			pstmt = conn.prepareStatement(sql);
 			
-			pstmt.setString(1, no);
+			pstmt.setLong(1, no);
 			pstmt.setString(2, password);
 			
 			
