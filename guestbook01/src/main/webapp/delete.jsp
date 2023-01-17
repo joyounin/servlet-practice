@@ -7,9 +7,6 @@
 	String no =	request.getParameter("no");
 	String password = request.getParameter("password");
 	
-	GuestbookVo vo = new GuestbookVo();
-	vo.setPassword(password);
-
 	new GuestbookDao().deleteByPassword(password, no);
 	
 	response.sendRedirect("/guestbook01");
