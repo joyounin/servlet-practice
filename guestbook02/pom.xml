@@ -5,7 +5,7 @@
 		<artifactId>servlet.practice</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>emaillist01</artifactId>
+	<artifactId>guestbook02</artifactId>
 	<packaging>war</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,7 +36,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>emaillist01</finalName>
+		<finalName>guestbook02</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
