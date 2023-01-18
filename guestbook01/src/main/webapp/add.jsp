@@ -14,5 +14,5 @@
 	
 	new GuestbookDao().insert(vo);
 	
-	response.sendRedirect(request.getContextPath() + "/gb");
+	response.sendRedirect(request.getContextPath());
 %>

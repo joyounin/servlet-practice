@@ -9,5 +9,5 @@
 	
 	new GuestbookDao().deleteByPassword(password, no);
 	
-	response.sendRedirect(request.getContextPath() + "/gb");
+	response.sendRedirect(request.getContextPath());
 %>
